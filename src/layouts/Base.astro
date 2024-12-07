@@ -1,15 +1,18 @@
 ---
 import siteData from '../data/site.json'
 import Footer from '../components/Footer.astro'
-import Head from '../components/Head.astro'
+import Header from '../components/sections/Header.astro'
+import KontaktGora from '../components/Kontakt123.astro'
 import JS from '../components/JS.astro'
 import '../styles/global.css'
+import Navbar from '../components/Navbar.astro'
 ---
-<html lang={siteData.language}>
-  <Head />
+<html>
   <body class="font-sans text-gray-800 bg-gray-100">
+  <Navbar/>
     <slot />
     <Footer />
     <JS />
+    
   </body>
 </html>
