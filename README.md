@@ -70,3 +70,4 @@ Sections are a so called [collection](https://docs.astro.build/en/guides/content
 **Change images:**
 
 Images are stored in `./public/img/`; everything in there can be considered a placeholder that should eventually be replaced with your actual production images.
+# pierogi
